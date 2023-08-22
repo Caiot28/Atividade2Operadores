@@ -8,7 +8,7 @@ main(){
     printf("\nDigite o raio do circulo em centimetros: ");
     scanf("%f", &raio);
 
-    area = raio * 3.1415;
+    area = pow(raio,2) * 3.1415;
 
     printf("\nA area do circulo e de %f centimetros quadrados\n", area);
 
