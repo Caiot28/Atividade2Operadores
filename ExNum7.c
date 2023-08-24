@@ -5,7 +5,7 @@ main(){
 
     int anos, meses, dias, diasTotal;
 
-    printf("Digite sua idade: ");
+    printf("\nDigite sua idade: ");
     printf("\nAnos: ");
     scanf("%d", &anos);
 
