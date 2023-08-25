@@ -12,9 +12,9 @@ main(){
     printf("\nDigite a cotacao do dolar atualmente: ");
     scanf("%f", &CotDolar);
 
-    conversao = valor * CotDolar;
+    conversao = valor / CotDolar;
 
-    printf("\nO valor em dolares e: %f", conversao);
+    printf("\nO valor em dolares e: %.2f", conversao);
 
 
 
