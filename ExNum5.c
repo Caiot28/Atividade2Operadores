@@ -24,7 +24,7 @@ main(){
     lucro = valorVenda - custoTotal;
     porcentagemLucro = (lucro / custoTotal) * 100;
 
-    printf("\nA porcentagem de lucro foi de %.2f por cento\n", porcentagemLucro);
+    printf("\nA porcentagem de lucro foi de %.2f%% \n", porcentagemLucro);
 
 
 
