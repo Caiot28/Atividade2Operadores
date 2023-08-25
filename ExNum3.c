@@ -14,7 +14,7 @@ main(){
 
     area = comprimento * largura;
 
-    printf("\nA area em metros quadrados e: %.3f", area);
+    printf("\nA area em metros quadrados e: %.2f", area);
 
 
 }
