@@ -3,20 +3,11 @@
 
 main(){
 
-    float valor, CotDolar, conversao;
-
-    printf("\nDigite o valor em reais: ");
-    scanf("%f", &valor);
-
-
-    printf("\nDigite a cotacao do dolar atualmente: ");
-    scanf("%f", &CotDolar);
+    float valor = 200, CotDolar = 4.87, conversao;
 
     conversao = valor / CotDolar;
 
-    printf("\nO valor em dolares e: %.2f", conversao);
-
-
+    printf("\nO valor em dolar e: %.2f", conversao);
 
 
 
