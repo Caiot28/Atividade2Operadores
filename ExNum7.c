@@ -11,8 +11,8 @@ main(){
 
     printf("\nMeses: ");
     scanf("%d", &meses);
+    
     printf("\nDias: ");
-
     scanf("%d", &dias);
 
     diasTotal = (anos * 365) + (meses * 30) + dias;
