@@ -16,7 +16,7 @@ main(){
 
     custoTotal = custoMercadoria + frete + outrasDespesas;
 
-    printf("\nO custo total e de %f reais\n", custoTotal);
+    printf("\nO custo total e de %.2f reais\n", custoTotal);
 
     printf("\nDigite o valor de venda: ");
     scanf("%f", &valorVenda);
@@ -24,7 +24,7 @@ main(){
     lucro = valorVenda - custoTotal;
     porcentagemLucro = (lucro / custoTotal) * 100;
 
-    printf("\nA porcentagem de lucro foi de %f por cento\n", porcentagemLucro);
+    printf("\nA porcentagem de lucro foi de %.2f por cento\n", porcentagemLucro);
 
 
 
