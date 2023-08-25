@@ -10,7 +10,7 @@ main(){
 
     area = pow(raio,2) * 3.1415;
 
-    printf("\nA area do circulo e de %f centimetros quadrados\n", area);
+    printf("\nA area do circulo e de %.2f centimetros quadrados\n", area);
 
 
 
