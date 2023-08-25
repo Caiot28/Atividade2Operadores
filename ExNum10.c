@@ -3,14 +3,14 @@
 
 main(){
     
-    float salarioFixo, comissaoVendas, valorVendas, salarioCarros, salarioFinal;
+    float salarioFixo, comissaoCarros, valorVendas, salarioCarros, salarioFinal;
     int carrosVendidos;
     
     printf("\nDigite seu salario fixo: ");
     scanf("%f", &salarioFixo);
     
     printf("\nDigite a comissao por carro vendido: ");
-    scanf("%f", &comissaoVendas);
+    scanf("%f", &comissaoCarros);
 
     printf("\nDigite o numero de carros vendidos: ");
     scanf("%d", &carrosVendidos);
@@ -20,7 +20,7 @@ main(){
     
     valorVendas = valorVendas * 0.05;
     
-    salarioCarros = carrosVendidos * comissaoVendas;
+    salarioCarros = carrosVendidos * comissaoCarros;
     
     salarioFinal = salarioFixo + valorVendas + salarioCarros;
     
